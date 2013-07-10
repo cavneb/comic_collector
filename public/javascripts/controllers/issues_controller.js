@@ -8,7 +8,7 @@ var IssuesController = Ember.ArrayController.extend({
     }
     var issues = this.get('model')
     var newIssue = issues.createRecord(data);
-    this.get('store').commit();
+    this.get('store').save();
   }
 });
 
