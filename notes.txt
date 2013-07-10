@@ -1,0 +1,4 @@
+Changes to the original application:
+
+* Added active_model_serializers and serializers for each model
+* Added :book_id as an attr_accessible on issue.rb

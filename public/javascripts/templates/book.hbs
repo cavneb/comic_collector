@@ -1,0 +1,17 @@
+<p>{{#linkTo 'books'}}Return to List{{/linkTo}}</p>
+
+<div class="row-fluid">
+  <div class="span4">
+    <div class="thumbnail">
+      <img {{bindAttr src="cover_image_url" title="name"}}>
+    </div>
+  </div>
+  <div class="span8">
+    <h2>{{name}}</h2>
+    <h4>{{totalIssues}} issues</h4>
+    <h4>{{currency totalPrice}} total</h4>
+  </div>
+</div>
+
+{{ render "issues" issues }}
+

@@ -1,0 +1,19 @@
+<div class="row-fluid">
+  <ul class="thumbnails">
+    {{#each book in controller}}
+    <li style="display: inline-block; 
+             float: left; 
+             width: 200px; 
+             padding: 10px;">
+      <div class="thumbnail">
+        {{#linkTo 'book' book}}
+        <img {{bindAttr src=book.cover_image_url alt=book.name}}>
+        <div class="caption">
+          <strong>{{book.name}}</strong>
+        </div>
+        {{/linkTo}}
+      </div>
+    </li>
+    {{/each}}
+  </ul>
+</div>

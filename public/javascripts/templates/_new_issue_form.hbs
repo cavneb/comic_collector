@@ -1,0 +1,31 @@
+<form {{action "createIssue" on="submit"}} class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label">Cover Image URL</label>
+    <div class="controls">
+      {{input type="text" value=new_cover_image_url placeholder="Cover Image URL"}}
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Issue No.</label>
+    <div class="controls">
+      {{input type="text" value=new_number placeholder="Issue Number"}}
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Title</label>
+    <div class="controls">
+      {{input type="text" value=new_title placeholder="Title"}}
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Price</label>
+    <div class="controls">
+      {{input type="text" value=new_price placeholder="Price"}}
+    </div>
+  </div>
+   <div class="control-group">
+    <div class="controls">
+      <button {{action "createIssue" on="click"}} class="btn btn-primary">Add Issue</button>
+    </div>
+  </div>
+</form>

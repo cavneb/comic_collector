@@ -1,0 +1,36 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+xkcd_630:
+  number: 630
+  title: Time Travel Bagels
+  cover_image_url: /xkcd_630.png
+  price: 2.00
+  book_id: 1
+
+xkcd_518:
+  number: 518
+  title: Flowcharts
+  cover_image_url: /xkcd_518.png
+  price: 0.99
+  book_id: 1
+
+xkcd_913:
+  number: 913
+  title: Magma
+  cover_image_url: /xkcd_913.png
+  price: 1.45
+  book_id: 1
+
+oatmeal_dog_1:
+  number: 101
+  title: How I See My Dog
+  cover_image_url: /oatmeal_dog_1.png
+  price: 4.56
+  book_id: 2
+
+oatmeal_dog_2:
+  number: 102
+  title: How My Dog Sees Me
+  cover_image_url: /oatmeal_dog_2.png
+  price: 1.23
+  book_id: 2

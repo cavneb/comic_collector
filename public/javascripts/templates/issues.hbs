@@ -1,0 +1,20 @@
+<table class="table table-bordered">
+  <thead>
+    <th>&nbsp;</th>
+    <th>#</th>
+    <th>Title</th>
+    <th>Price</th>
+  </thead>
+  <tbody>
+    {{#each issue in controller}}
+      <tr>
+        <td><img {{bindAttr src="issue.cover_image_url" alt="title"}} style="width: 100px;"></td>
+        <td>{{issue.number}}</td>
+        <td>{{issue.title}}</td>
+        <td>{{currency issue.price}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+{{ partial "new_issue_form" }}

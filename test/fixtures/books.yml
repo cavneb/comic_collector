@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+xkcd:
+  id: 1
+  name: XKCD
+  cover_image_url: /xkcd_example.png
+
+oatmeal:
+  id: 2
+  name: The Oatmeal
+  cover_image_url: /oatmeal_dog_1.png
