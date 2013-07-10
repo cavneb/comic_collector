@@ -1,6 +1,6 @@
-Accounting = require('../vendor/accounting');
+var accounting = require('../vendor/accounting');
 
 Ember.Handlebars.helper('currency', function(amount) {
-  return Accounting.formatMoney(amount);
+  return accounting.formatMoney(amount);
 });
 

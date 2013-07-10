@@ -1,4 +1,6 @@
 var IssuesController = Ember.ArrayController.extend({
+  sortProperties: ['number'],
+
   createIssue: function() {
     var data = {
       cover_image_url: this.get('new_cover_image_url'), 
